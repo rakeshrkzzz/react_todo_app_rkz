@@ -1,0 +1,64 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+h1 {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin-bottom:16px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #643ebd;
+  background-color: transparent;
+  outline: none;
+  transition: border-bottom-color 0.3s;
+}
+input[type="text"]::placeholder {
+  color: #ccc;
+}
+input[type="text"]:focus {
+  border-bottom-color: #9a72f7;
+}
+input[type="submit"] {
+  padding: 12px 40px;
+  font-size: 16px;
+  background-color: #643ebd;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+input[type="submit"]:hover {
+  background-color: #9a72f7;
+}
+.todo-item {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.delete-icon {
+  color: #643ebd;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.delete-icon:hover {
+  color: #4909de;
+}
